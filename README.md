@@ -7,6 +7,6 @@ This app scrapes the [Japanese bing news page](https://www.bing.com/news) and ge
 
 ## How it looks
 
-![gif](/bingnews.gif)
+![gif](/bing-news.gif)
 
 ## 

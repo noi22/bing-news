@@ -9,4 +9,15 @@ This app scrapes the [Japanese bing news page](https://www.bing.com/news) and ge
 
 ![gif](/bing-news.gif)
 
-## 
+## How to set
+
+- Enable Google Drive API and Google Sheets API
+- Generate a credential and put the JSON file to the root directory. set the filename to variable  `service_account_keyfile`
+- Create a googlesheet and set the key to variable `SPREADSHEET_KEY`
+- Share the googlesheet with the email in the JSON file
+
+## How to run
+
+```
+python getbingnews.py
+```
